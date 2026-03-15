@@ -805,6 +805,107 @@
           <span class="btn-jouer">Jouer →</span>
         </div>
       </a>
+      <!-- Enigma -->
+      <a href="https://enigma.vercel.app" class="carte-jeu fade-in">
+        <div class="carte-image" style="background: linear-gradient(180deg, #080c14 0%, #0e1520 50%, #060810 100%);">
+          <div class="brume" style="background:linear-gradient(90deg,transparent,rgba(14,20,32,0.4),transparent);"></div>
+          <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:1;overflow:hidden;" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="ciel-en" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#080c14"/>
+                <stop offset="100%" stop-color="#0e1520"/>
+              </linearGradient>
+              <radialGradient id="lune-en" cx="75%" cy="20%" r="15%">
+                <stop offset="0%" stop-color="rgba(200,210,230,0.1)"/>
+                <stop offset="100%" stop-color="transparent"/>
+              </radialGradient>
+            </defs>
+            <rect width="400" height="200" fill="url(#ciel-en)"/>
+            <rect width="400" height="200" fill="url(#lune-en)"/>
+            <!-- Étoiles -->
+            <circle cx="40" cy="20" r="0.8" fill="rgba(255,255,255,0.4)"/>
+            <circle cx="90" cy="12" r="0.6" fill="rgba(255,255,255,0.3)"/>
+            <circle cx="160" cy="28" r="0.8" fill="rgba(255,255,255,0.35)"/>
+            <circle cx="220" cy="10" r="0.6" fill="rgba(255,255,255,0.25)"/>
+            <circle cx="310" cy="22" r="0.8" fill="rgba(255,255,255,0.4)"/>
+            <circle cx="370" cy="15" r="0.6" fill="rgba(255,255,255,0.3)"/>
+            <!-- Notre-Dame de la Garde -->
+            <ellipse cx="320" cy="85" rx="40" ry="25" fill="#0a0e16"/>
+            <rect x="316" y="62" width="4" height="28" fill="#0c1018"/>
+            <rect x="312" y="65" width="12" height="3" fill="#0c1018"/>
+            <circle cx="318" cy="60" r="3" fill="rgba(200,180,100,0.25)"/>
+            <!-- Bâtiments -->
+            <rect x="0" y="100" width="30" height="100" fill="#0c1018"/>
+            <rect x="28" y="88" width="22" height="112" fill="#0e1220"/>
+            <rect x="48" y="105" width="18" height="95" fill="#0a0e18"/>
+            <rect x="64" y="82" width="25" height="118" fill="#0f1322"/>
+            <rect x="88" y="95" width="20" height="105" fill="#0b0f1a"/>
+            <rect x="230" y="90" width="28" height="110" fill="#0e1220"/>
+            <rect x="256" y="78" width="32" height="122" fill="#0f1322"/>
+            <rect x="286" y="98" width="22" height="102" fill="#0c1018"/>
+            <rect x="306" y="88" width="40" height="112" fill="#0d1120"/>
+            <rect x="344" y="95" width="56" height="105" fill="#0c1018"/>
+            <!-- Fenêtres -->
+            <rect x="6" y="108" width="4" height="4" fill="rgba(255,220,120,0.4)"/>
+            <rect x="32" y="95" width="4" height="4" fill="rgba(200,220,255,0.3)"/>
+            <rect x="68" y="90" width="4" height="4" fill="rgba(255,220,120,0.35)"/>
+            <rect x="78" y="100" width="4" height="4" fill="rgba(200,220,255,0.25)"/>
+            <rect x="235" y="97" width="4" height="4" fill="rgba(255,220,120,0.4)"/>
+            <rect x="260" y="85" width="4" height="4" fill="rgba(200,220,255,0.3)"/>
+            <rect x="312" y="95" width="4" height="4" fill="rgba(255,220,120,0.35)"/>
+            <rect x="355" y="102" width="4" height="4" fill="rgba(200,220,255,0.25)"/>
+            <!-- Quai -->
+            <rect x="0" y="148" width="400" height="8" fill="#0e1420"/>
+            <rect x="0" y="146" width="400" height="3" fill="#141c2a"/>
+            <!-- Mer -->
+            <rect x="0" y="156" width="400" height="44" fill="#0a1018"/>
+            <!-- Reflets -->
+            <ellipse cx="200" cy="170" rx="120" ry="5" fill="rgba(255,220,120,0.04)"/>
+            <ellipse cx="100" cy="180" rx="50" ry="3" fill="rgba(200,220,255,0.03)"/>
+            <!-- Bateaux -->
+            <rect x="50" y="140" width="50" height="10" rx="2" fill="#0c1018"/>
+            <rect x="60" y="134" width="30" height="8" rx="1" fill="#0e1220"/>
+            <rect x="180" y="142" width="40" height="9" rx="2" fill="#0d1120"/>
+            <rect x="280" y="138" width="55" height="12" rx="2" fill="#0c1018"/>
+            <!-- Lampadaires -->
+            <line x1="100" y1="148" x2="100" y2="128" stroke="#1a2030" stroke-width="1.5"/>
+            <circle cx="100" cy="127" r="3" fill="rgba(255,220,120,0.6)"/>
+            <ellipse cx="100" cy="136" rx="12" ry="4" fill="rgba(255,220,120,0.05)"/>
+            <line x1="200" y1="148" x2="200" y2="128" stroke="#1a2030" stroke-width="1.5"/>
+            <circle cx="200" cy="127" r="3" fill="rgba(255,220,120,0.6)"/>
+            <line x1="300" y1="148" x2="300" y2="128" stroke="#1a2030" stroke-width="1.5"/>
+            <circle cx="300" cy="127" r="3" fill="rgba(255,220,120,0.6)"/>
+            <!-- Silhouette enquêteur -->
+            <rect x="194" y="134" width="6" height="16" fill="#060a10" rx="1"/>
+            <circle cx="197" cy="131" r="4" fill="#060a10"/>
+            <!-- Ruban policier -->
+            <line x1="120" y1="148" x2="190" y2="146" stroke="rgba(255,220,0,0.25)" stroke-width="1" stroke-dasharray="4,3"/>
+            <!-- Vignette -->
+            <radialGradient id="vig-en" cx="50%" cy="50%" r="70%">
+              <stop offset="0%" stop-color="transparent"/>
+              <stop offset="100%" stop-color="rgba(6,8,14,0.6)"/>
+            </radialGradient>
+            <rect width="400" height="200" fill="url(#vig-en)"/>
+          </svg>
+          <svg style="position:absolute;bottom:0;width:100%;height:40px;z-index:2;" viewBox="0 0 400 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="22" width="400" height="18" fill="#060810"/>
+            <rect x="0" y="18" width="400" height="6" fill="#0a1018"/>
+          </svg>
+          <div class="carte-image-title" style="position:relative;z-index:4;font-size:32px;letter-spacing:8px;text-shadow:0 0 30px rgba(26,58,106,0.8);font-family:'IBM Plex Mono',monospace;font-weight:500;">ENIGMA</div>
+        </div>
+        <div class="carte-body">
+          <span class="carte-tag">Thriller · Enquête · Marseille</span>
+          <div class="carte-nom">Enigma</div>
+          <div class="carte-desc">Un tueur laisse des énigmes sur les scènes de crime. Vous êtes commandant au SRPJ de Marseille. Trois fins possibles. Aucune indulgence.</div>
+        </div>
+        <div class="carte-footer">
+          <div class="carte-statut">
+            <div class="statut-dot"></div>
+            En ligne
+          </div>
+          <span class="btn-jouer">Jouer →</span>
+        </div>
+      </a>
 
     </div>
   </section>
