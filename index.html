@@ -906,6 +906,126 @@
           <span class="btn-jouer">Jouer →</span>
         </div>
       </a>
+      <!-- Hero Feed -->
+      <a href="https://herofeed.vercel.app" class="carte-jeu fade-in">
+        <div class="carte-image" style="background: linear-gradient(180deg, #08080f 0%, #0e0e1a 50%, #060610 100%);">
+          <div class="brume" style="background:linear-gradient(90deg,transparent,rgba(122,32,224,0.15),transparent);"></div>
+          <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:1;overflow:hidden;" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="ciel-hf" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#08080f"/>
+                <stop offset="100%" stop-color="#0e0e1a"/>
+              </linearGradient>
+              <radialGradient id="orbe-hf1" cx="30%" cy="30%" r="40%">
+                <stop offset="0%" stop-color="rgba(122,32,224,0.2)"/>
+                <stop offset="100%" stop-color="transparent"/>
+              </radialGradient>
+              <radialGradient id="orbe-hf2" cx="75%" cy="70%" r="35%">
+                <stop offset="0%" stop-color="rgba(0,200,224,0.15)"/>
+                <stop offset="100%" stop-color="transparent"/>
+              </radialGradient>
+              <radialGradient id="hero-glow" cx="50%" cy="45%" r="20%">
+                <stop offset="0%" stop-color="rgba(154,64,255,0.4)"/>
+                <stop offset="100%" stop-color="transparent"/>
+              </radialGradient>
+            </defs>
+            <rect width="400" height="200" fill="url(#ciel-hf)"/>
+            <rect width="400" height="200" fill="url(#orbe-hf1)"/>
+            <rect width="400" height="200" fill="url(#orbe-hf2)"/>
+            <!-- Grille energy -->
+            <line x1="0" y1="40" x2="400" y2="40" stroke="rgba(122,32,224,0.08)" stroke-width="1"/>
+            <line x1="0" y1="80" x2="400" y2="80" stroke="rgba(122,32,224,0.08)" stroke-width="1"/>
+            <line x1="0" y1="120" x2="400" y2="120" stroke="rgba(122,32,224,0.08)" stroke-width="1"/>
+            <line x1="0" y1="160" x2="400" y2="160" stroke="rgba(122,32,224,0.08)" stroke-width="1"/>
+            <line x1="80" y1="0" x2="80" y2="200" stroke="rgba(122,32,224,0.06)" stroke-width="1"/>
+            <line x1="160" y1="0" x2="160" y2="200" stroke="rgba(122,32,224,0.06)" stroke-width="1"/>
+            <line x1="240" y1="0" x2="240" y2="200" stroke="rgba(122,32,224,0.06)" stroke-width="1"/>
+            <line x1="320" y1="0" x2="320" y2="200" stroke="rgba(122,32,224,0.06)" stroke-width="1"/>
+            <!-- Skyline Neo-Tokyo -->
+            <rect x="0" y="110" width="25" height="90" fill="#0c0c1a"/>
+            <rect x="20" y="90" width="18" height="110" fill="#0e0e20"/>
+            <rect x="35" y="120" width="15" height="80" fill="#0a0a16"/>
+            <rect x="48" y="70" width="22" height="130" fill="#10101e"/>
+            <rect x="68" y="100" width="16" height="100" fill="#0c0c1a"/>
+            <rect x="82" y="115" width="20" height="85" fill="#0e0e1e"/>
+            <rect x="260" y="95" width="24" height="105" fill="#0e0e20"/>
+            <rect x="281" y="75" width="30" height="125" fill="#10101e"/>
+            <rect x="308" y="105" width="20" height="95" fill="#0c0c1a"/>
+            <rect x="326" y="85" width="35" height="115" fill="#0f0f1e"/>
+            <rect x="358" y="115" width="42" height="85" fill="#0c0c18"/>
+            <!-- Fenêtres violet/cyan -->
+            <rect x="52" y="78" width="4" height="4" fill="rgba(122,32,224,0.7)"/>
+            <rect x="60" y="88" width="4" height="4" fill="rgba(0,200,224,0.5)"/>
+            <rect x="70" y="108" width="4" height="4" fill="rgba(122,32,224,0.6)"/>
+            <rect x="85" y="122" width="4" height="4" fill="rgba(0,200,224,0.4)"/>
+            <rect x="265" y="102" width="4" height="4" fill="rgba(0,200,224,0.6)"/>
+            <rect x="275" y="82" width="4" height="4" fill="rgba(122,32,224,0.7)"/>
+            <rect x="288" y="92" width="4" height="4" fill="rgba(0,200,224,0.5)"/>
+            <rect x="312" y="112" width="4" height="4" fill="rgba(122,32,224,0.6)"/>
+            <rect x="332" y="92" width="4" height="4" fill="rgba(0,200,224,0.4)"/>
+            <rect x="365" y="122" width="4" height="4" fill="rgba(122,32,224,0.5)"/>
+            <!-- Écrans TV géants sur buildings -->
+            <rect x="54" y="95" width="14" height="10" fill="rgba(0,200,224,0.15)" rx="1"/>
+            <text x="61" y="102" text-anchor="middle" font-family="monospace" font-size="5" fill="rgba(0,200,224,0.6)">TV</text>
+            <rect x="284" y="88" width="18" height="12" fill="rgba(122,32,224,0.15)" rx="1"/>
+            <text x="293" y="96" text-anchor="middle" font-family="monospace" font-size="5" fill="rgba(154,64,255,0.6)">542</text>
+            <!-- Sol / rue -->
+            <rect x="0" y="158" width="400" height="42" fill="#060610"/>
+            <rect x="0" y="156" width="400" height="4" fill="#0e0e1e"/>
+            <!-- Reflets néons sur sol -->
+            <ellipse cx="200" cy="175" rx="150" ry="6" fill="rgba(122,32,224,0.06)"/>
+            <ellipse cx="100" cy="180" rx="60" ry="3" fill="rgba(0,200,224,0.05)"/>
+            <ellipse cx="300" cy="178" rx="70" ry="3" fill="rgba(0,200,224,0.04)"/>
+            <!-- Héros central en vol - silhouette -->
+            <rect width="400" height="200" fill="url(#hero-glow)"/>
+            <!-- Corps héros -->
+            <ellipse cx="200" cy="88" rx="10" ry="14" fill="#0a0a18"/>
+            <circle cx="200" cy="72" r="7" fill="#0a0a18"/>
+            <!-- Cape / ailes d'énergie -->
+            <path d="M190,90 Q170,100 155,85 Q165,82 180,88 Z" fill="rgba(122,32,224,0.5)"/>
+            <path d="M210,90 Q230,100 245,85 Q235,82 220,88 Z" fill="rgba(0,200,224,0.5)"/>
+            <!-- Aura énergie autour héros -->
+            <circle cx="200" cy="82" r="18" fill="none" stroke="rgba(154,64,255,0.3)" stroke-width="1.5"/>
+            <circle cx="200" cy="82" r="24" fill="none" stroke="rgba(0,200,224,0.15)" stroke-width="1"/>
+            <!-- Particules d'énergie -->
+            <circle cx="180" cy="65" r="2" fill="rgba(154,64,255,0.6)"/>
+            <circle cx="222" cy="60" r="1.5" fill="rgba(0,200,224,0.7)"/>
+            <circle cx="175" cy="95" r="1.5" fill="rgba(0,200,224,0.5)"/>
+            <circle cx="225" cy="92" r="2" fill="rgba(154,64,255,0.5)"/>
+            <circle cx="195" cy="55" r="1" fill="rgba(255,255,255,0.4)"/>
+            <circle cx="210" cy="50" r="1" fill="rgba(154,64,255,0.6)"/>
+            <!-- Barres TV followers flottantes -->
+            <rect x="130" y="48" width="50" height="16" rx="2" fill="rgba(8,8,15,0.8)"/>
+            <rect x="133" y="51" width="6" height="4" rx="1" fill="rgba(122,32,224,0.8)"/>
+            <text x="142" y="60" font-family="monospace" font-size="6" fill="rgba(0,200,224,0.8)">TV 15</text>
+            <rect x="220" y="48" width="55" height="16" rx="2" fill="rgba(8,8,15,0.8)"/>
+            <text x="225" y="60" font-family="monospace" font-size="6" fill="rgba(154,64,255,0.8)">0 followers</text>
+            <!-- Vignette -->
+            <radialGradient id="vig-hf" cx="50%" cy="50%" r="70%">
+              <stop offset="0%" stop-color="transparent"/>
+              <stop offset="100%" stop-color="rgba(6,6,14,0.65)"/>
+            </radialGradient>
+            <rect width="400" height="200" fill="url(#vig-hf)"/>
+          </svg>
+          <svg style="position:absolute;bottom:0;width:100%;height:40px;z-index:2;" viewBox="0 0 400 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="22" width="400" height="18" fill="#060610"/>
+            <rect x="0" y="18" width="400" height="6" fill="#0e0e1a"/>
+          </svg>
+          <div class="carte-image-title" style="position:relative;z-index:4;font-size:28px;letter-spacing:5px;font-family:'Rajdhani',sans-serif;font-weight:700;text-shadow:0 0 30px rgba(122,32,224,0.8);">HERO <span style="color:#00c8e0;">FEED</span></div>
+        </div>
+        <div class="carte-body">
+          <span class="carte-tag">Super-héros · Trust Value · Tokyo</span>
+          <div class="carte-nom">Hero Feed</div>
+          <div class="carte-desc">Neo-Tokyo. Tes pouvoirs viennent de l'amour du public. Plus tu es aimé, plus tu es puissant. Choisis ton agence, construis ton image, monte dans les classements.</div>
+        </div>
+        <div class="carte-footer">
+          <div class="carte-statut">
+            <div class="statut-dot"></div>
+            En ligne
+          </div>
+          <span class="btn-jouer">Jouer →</span>
+        </div>
+      </a>
 
     </div>
   </section>
