@@ -1116,6 +1116,96 @@
           <span class="btn-jouer">Jouer →</span>
         </div>
       </a>
+      <!-- Survivants -->
+      <a href="https://survivants.vercel.app" class="carte-jeu fade-in">
+        <div class="carte-image" style="background: linear-gradient(180deg, #080c06 0%, #0d1208 50%, #060804 100%);">
+          <div class="brume" style="background:linear-gradient(90deg,transparent,rgba(58,106,24,0.12),transparent);"></div>
+          <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:1;overflow:hidden;" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="ciel-sv" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#080c06"/>
+                <stop offset="100%" stop-color="#060804"/>
+              </linearGradient>
+              <radialGradient id="feu-sv" cx="50%" cy="80%" r="25%">
+                <stop offset="0%" stop-color="rgba(180,80,20,0.35)"/>
+                <stop offset="100%" stop-color="transparent"/>
+              </radialGradient>
+            </defs>
+            <rect width="400" height="200" fill="url(#ciel-sv)"/>
+            <!-- Étoiles -->
+            <circle cx="50" cy="15" r="0.8" fill="rgba(255,255,220,0.5)"/>
+            <circle cx="120" cy="8" r="0.6" fill="rgba(255,255,220,0.4)"/>
+            <circle cx="200" cy="12" r="0.8" fill="rgba(255,255,220,0.5)"/>
+            <circle cx="280" cy="6" r="0.6" fill="rgba(255,255,220,0.3)"/>
+            <circle cx="350" cy="18" r="0.8" fill="rgba(255,255,220,0.4)"/>
+            <!-- Lune -->
+            <circle cx="340" cy="22" r="10" fill="rgba(200,210,160,0.1)"/>
+            <!-- Forêt fond -->
+            <path d="M0,100 Q20,80 40,90 Q60,70 80,82 Q100,65 120,78 Q140,62 160,74 Q180,60 200,72 Q220,58 240,70 Q260,62 280,74 Q300,58 320,70 Q340,62 360,74 Q380,64 400,75 L400,200 L0,200 Z" fill="#0a0e06"/>
+            <!-- Forêt milieu -->
+            <path d="M0,130 Q30,110 60,122 Q90,105 120,118 Q150,102 180,115 Q210,105 240,118 Q270,106 300,118 Q330,108 360,120 Q385,112 400,122 L400,200 L0,200 Z" fill="#0c1208"/>
+            <!-- Arbres proches -->
+            <rect x="58" y="100" width="6" height="100" fill="#0a0d06"/>
+            <path d="M45,100 L61,65 L77,100 Z" fill="#0e1508"/>
+            <path d="M48,82 L61,52 L74,82 Z" fill="#101808"/>
+            <rect x="138" y="108" width="5" height="92" fill="#080c05"/>
+            <path d="M127,108 L141,78 L155,108 Z" fill="#0c1406"/>
+            <path d="M129,90 L141,64 L153,90 Z" fill="#0e1808"/>
+            <rect x="248" y="104" width="6" height="96" fill="#0a0d06"/>
+            <path d="M236,104 L251,70 L266,104 Z" fill="#0e1508"/>
+            <path d="M238,86 L251,56 L264,86 Z" fill="#101808"/>
+            <rect x="338" y="106" width="5" height="94" fill="#080c05"/>
+            <path d="M327,106 L341,74 L355,106 Z" fill="#0c1406"/>
+            <!-- Sol -->
+            <rect x="0" y="165" width="400" height="35" fill="#080c05"/>
+            <rect x="0" y="163" width="400" height="4" fill="#0e1408"/>
+            <!-- Feu de camp -->
+            <rect x="188" y="172" width="24" height="3" fill="#1a1408" rx="1"/>
+            <rect x="191" y="162" width="3" height="14" fill="#1a1408" rx="1" transform="rotate(-12,192,162)"/>
+            <rect x="205" y="162" width="3" height="14" fill="#1a1408" rx="1" transform="rotate(12,206,162)"/>
+            <rect x="197" y="158" width="3" height="16" fill="#1a1408" rx="1"/>
+            <!-- Flammes -->
+            <ellipse cx="200" cy="158" rx="7" ry="11" fill="rgba(180,80,20,0.7)"/>
+            <ellipse cx="200" cy="155" rx="4" ry="8" fill="rgba(220,120,20,0.6)"/>
+            <ellipse cx="200" cy="152" rx="3" ry="6" fill="rgba(240,180,40,0.5)"/>
+            <rect width="400" height="200" fill="url(#feu-sv)"/>
+            <!-- Survivants silhouettes -->
+            <ellipse cx="176" cy="175" rx="6" ry="9" fill="#060806"/>
+            <circle cx="176" cy="166" r="5" fill="#060806"/>
+            <ellipse cx="224" cy="175" rx="6" ry="9" fill="#060806"/>
+            <circle cx="224" cy="166" r="5" fill="#060806"/>
+            <ellipse cx="188" cy="178" rx="5" ry="8" fill="#060806"/>
+            <circle cx="188" cy="170" r="4" fill="#060806"/>
+            <ellipse cx="212" cy="178" rx="5" ry="8" fill="#060806"/>
+            <circle cx="212" cy="170" r="4" fill="#060806"/>
+            <!-- Épave avion -->
+            <path d="M290,148 L370,138 L375,148 L295,160 Z" fill="rgba(25,30,20,0.8)"/>
+            <!-- Vignette -->
+            <radialGradient id="vig-sv" cx="50%" cy="50%" r="70%">
+              <stop offset="0%" stop-color="transparent"/>
+              <stop offset="100%" stop-color="rgba(6,8,4,0.7)"/>
+            </radialGradient>
+            <rect width="400" height="200" fill="url(#vig-sv)"/>
+          </svg>
+          <svg style="position:absolute;bottom:0;width:100%;height:40px;z-index:2;" viewBox="0 0 400 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="22" width="400" height="18" fill="#060804"/>
+            <rect x="0" y="18" width="400" height="6" fill="#0c1008"/>
+          </svg>
+          <div class="carte-image-title" style="position:relative;z-index:4;font-size:30px;letter-spacing:4px;text-shadow:0 0 30px rgba(58,106,24,0.6);">Sur<span style="color:#4a8a20;">vivants</span></div>
+        </div>
+        <div class="carte-body">
+          <span class="carte-tag">Survie · Civilisation · Nature</span>
+          <div class="carte-nom">Survivants</div>
+          <div class="carte-desc">L'avion s'est écrasé. Biome généré aléatoirement. Des survivants avec des profils distincts. Trouvez de l'eau, de la nourriture, construisez un abri. Ou disparaissez.</div>
+        </div>
+        <div class="carte-footer">
+          <div class="carte-statut">
+            <div class="statut-dot"></div>
+            En ligne
+          </div>
+          <span class="btn-jouer">Jouer →</span>
+        </div>
+      </a>
 
     </div>
   </section>
