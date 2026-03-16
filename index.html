@@ -1026,6 +1026,96 @@
           <span class="btn-jouer">Jouer →</span>
         </div>
       </a>
+      <!-- The Escape -->
+      <a href="https://the-escape.vercel.app" class="carte-jeu fade-in">
+        <div class="carte-image" style="background: linear-gradient(180deg, #0a0a08 0%, #0f0d0b 50%, #060605 100%);">
+          <div class="brume" style="background:linear-gradient(90deg,transparent,rgba(200,90,16,0.1),transparent);"></div>
+          <svg style="position:absolute;inset:0;width:100%;height:100%;z-index:1;overflow:hidden;" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="bg-te2" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#0a0a08"/>
+                <stop offset="100%" stop-color="#060605"/>
+              </linearGradient>
+              <radialGradient id="lum-te2" cx="25%" cy="50%" r="45%">
+                <stop offset="0%" stop-color="rgba(200,90,16,0.14)"/>
+                <stop offset="100%" stop-color="transparent"/>
+              </radialGradient>
+            </defs>
+            <rect width="400" height="200" fill="url(#bg-te2)"/>
+            <rect width="400" height="200" fill="url(#lum-te2)"/>
+            <!-- Blocs béton -->
+            <rect x="0" y="0" width="100" height="60" fill="rgba(20,20,18,0.7)" stroke="rgba(40,40,36,0.5)" stroke-width="1"/>
+            <rect x="100" y="0" width="100" height="60" fill="rgba(18,18,16,0.7)" stroke="rgba(40,40,36,0.5)" stroke-width="1"/>
+            <rect x="200" y="0" width="100" height="60" fill="rgba(22,22,20,0.7)" stroke="rgba(40,40,36,0.5)" stroke-width="1"/>
+            <rect x="300" y="0" width="100" height="60" fill="rgba(19,19,17,0.7)" stroke="rgba(40,40,36,0.5)" stroke-width="1"/>
+            <rect x="0" y="60" width="100" height="60" fill="rgba(21,21,19,0.6)" stroke="rgba(40,40,36,0.4)" stroke-width="1"/>
+            <rect x="100" y="60" width="100" height="60" fill="rgba(17,17,15,0.6)" stroke="rgba(40,40,36,0.4)" stroke-width="1"/>
+            <rect x="200" y="60" width="100" height="60" fill="rgba(20,20,18,0.6)" stroke="rgba(40,40,36,0.4)" stroke-width="1"/>
+            <rect x="300" y="60" width="100" height="60" fill="rgba(18,18,16,0.6)" stroke="rgba(40,40,36,0.4)" stroke-width="1"/>
+            <!-- Fissures béton -->
+            <path d="M60,0 L58,25 L63,50 L59,80" stroke="rgba(200,90,16,0.2)" stroke-width="1.5" fill="none"/>
+            <path d="M175,10 L177,40 L172,70" stroke="rgba(200,90,16,0.12)" stroke-width="1" fill="none"/>
+            <path d="M290,5 L293,35 L288,65 L291,95" stroke="rgba(200,90,16,0.15)" stroke-width="1.5" fill="none"/>
+            <!-- Tuyau industriel -->
+            <rect x="0" y="118" width="400" height="5" fill="rgba(40,40,36,0.9)" rx="1"/>
+            <rect x="0" y="125" width="400" height="2" fill="rgba(30,30,28,0.7)"/>
+            <circle cx="50" cy="120" r="3" fill="rgba(50,50,46,0.9)"/>
+            <circle cx="130" cy="120" r="3" fill="rgba(50,50,46,0.9)"/>
+            <circle cx="250" cy="120" r="3" fill="rgba(50,50,46,0.9)"/>
+            <circle cx="350" cy="120" r="3" fill="rgba(50,50,46,0.9)"/>
+            <!-- Ampoule -->
+            <line x1="130" y1="0" x2="130" y2="112" stroke="rgba(50,50,46,0.7)" stroke-width="1.5"/>
+            <circle cx="130" cy="116" r="5" fill="rgba(200,90,16,0.35)"/>
+            <ellipse cx="130" cy="135" rx="30" ry="10" fill="rgba(200,90,16,0.07)"/>
+            <!-- Sol -->
+            <rect x="0" y="160" width="400" height="40" fill="rgba(14,14,12,0.95)"/>
+            <rect x="0" y="158" width="400" height="3" fill="rgba(30,30,26,0.8)"/>
+            <!-- Chaise silhouette -->
+            <rect x="178" y="128" width="44" height="4" fill="rgba(35,35,30,0.95)" rx="1"/>
+            <rect x="178" y="132" width="5" height="28" fill="rgba(30,30,25,0.95)"/>
+            <rect x="217" y="132" width="5" height="28" fill="rgba(30,30,25,0.95)"/>
+            <rect x="178" y="108" width="44" height="22" fill="rgba(35,35,30,0.95)" rx="1"/>
+            <!-- Personnage attaché -->
+            <ellipse cx="200" cy="102" rx="12" ry="14" fill="rgba(20,20,18,0.98)"/>
+            <rect x="186" y="113" width="28" height="18" fill="rgba(20,20,18,0.98)" rx="2"/>
+            <rect x="172" y="118" width="16" height="7" fill="rgba(20,20,18,0.95)" rx="1"/>
+            <rect x="212" y="118" width="16" height="7" fill="rgba(20,20,18,0.95)" rx="1"/>
+            <!-- Liens orange -->
+            <rect x="170" y="120" width="18" height="3" fill="rgba(200,90,16,0.6)" rx="1"/>
+            <rect x="212" y="120" width="18" height="3" fill="rgba(200,90,16,0.6)" rx="1"/>
+            <!-- Sac sur la tête -->
+            <ellipse cx="200" cy="98" rx="14" ry="16" fill="rgba(55,50,40,0.98)"/>
+            <!-- Ombre -->
+            <ellipse cx="200" cy="160" rx="30" ry="4" fill="rgba(0,0,0,0.5)"/>
+            <!-- Vignette -->
+            <radialGradient id="vig-te2" cx="50%" cy="50%" r="70%">
+              <stop offset="0%" stop-color="transparent"/>
+              <stop offset="100%" stop-color="rgba(6,6,5,0.7)"/>
+            </radialGradient>
+            <rect width="400" height="200" fill="url(#vig-te2)"/>
+          </svg>
+          <svg style="position:absolute;bottom:0;width:100%;height:40px;z-index:2;" viewBox="0 0 400 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="22" width="400" height="18" fill="#060605"/>
+            <rect x="0" y="18" width="400" height="6" fill="#0f0d0b"/>
+          </svg>
+          <div style="position:relative;z-index:4;text-align:left;padding-left:20px;">
+            <div style="font-family:'Oswald',sans-serif;font-size:13px;font-weight:300;color:rgba(200,200,190,0.5);letter-spacing:6px;text-transform:uppercase;">THE</div>
+            <div style="font-family:'Oswald',sans-serif;font-size:32px;font-weight:700;color:#e8e8e0;letter-spacing:3px;text-transform:uppercase;text-shadow:2px 2px 0 rgba(200,90,16,0.4);">ESCAPE</div>
+          </div>
+        </div>
+        <div class="carte-body">
+          <span class="carte-tag">Survie · Évasion · Thriller</span>
+          <div class="carte-nom">The Escape</div>
+          <div class="carte-desc">Tu reprends conscience. Attaché. Un sac sur la tête. Tu ne sais pas où tu es ni pourquoi. Chaque partie est générée aléatoirement. Réussis à t'évader — ou n'en reviens pas.</div>
+        </div>
+        <div class="carte-footer">
+          <div class="carte-statut">
+            <div class="statut-dot"></div>
+            En ligne
+          </div>
+          <span class="btn-jouer">Jouer →</span>
+        </div>
+      </a>
 
     </div>
   </section>
